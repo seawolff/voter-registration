@@ -1,0 +1,439 @@
+state:
+  - state: AL
+    name: id_number
+    help_text: Your social security number is requested(by authority of the Alabama Supreme Court 17-4-122)
+  - state: AL
+    name: political_party
+    help_text: "You do not have to register with a party if you want to take part in that party's primary election, caucus, or convention"
+  - state: AL
+    name: ethnicity
+    help_text: You are required to fill in this box; however, your application will not be rejected if you fail to do so.
+  - state: AK
+    name: id_number
+    help_text: "You must provide one of the following identification numbers: Alaska Driver's License or Alaska State Identification Card Number. If you do not have an Alaska Driver's License or Alaska State Identification Card, you must provide the last four digits of your Social Security Number. If you do not have any of these identification numbers, please write \"NONE\" on the form. A unique identifying number will be assigned to you for voter registration purposes. This information is kept confidential. Having this information assists in maintaining your voter record and may assist in verifying your identity (Title 15 of the Alaska Statutes)."
+  - state: AK
+    name: political_party
+    help_text: "You do not have to declare a party affiliation when registering to vote. If you do not choose a party, you will be registered as Undeclared. Alaska has a closed primary election system. Each recognized political party has a separate ballot listing only candidates from that political party. Voters registered as a member of a political party may only vote that party's ballot. Voters registered as undeclared or non-partisan may choose one ballot from the ballots available."
+  - state: AK
+    name: ethnicity
+    help_text: Leave blank.
+  - state: AZ
+    name: id_number
+    help_text: "Your completed voter registration form must contain the number of your Arizona drivers license, or non-operating identification license issued
+                If you do not have a current and valid Arizona driver license or non-operating identification license, you must include the last four digits of
+                your social security number if one has been issued to you.  If you do not have a current and valid driver license or non-operating identification
+                license or social security number, please write enter \"NONE\" on the form."
+    required: true
+  - state: AZ
+    name: political_party
+    help_text: "If you are registered in a political party which has qualified for ballot recognition, you will be permitted to vote the primary election
+                ballot for that party. If you are registereted as an independent, no party preference or as a member of a party which is not qualified
+                for ballot recognition, you mate select one and vote one primary election ballot for one of the recognized political parties"
+  - state: AZ
+    name: ethnicity
+    help_text: Leave blank
+  - state: AR
+    name: id_number
+    help_text: Your completed voter registration form must contain your state issued driver's license number or non-operating identification number. If you do not have a driver's license or non-operating identification, you must include the last four digits of your social security number. If you do not have a driver's license or a non-operating identification or a social security number, please write "NONE" on the form. A unique identifying number will be assigned by the State.
+  - state: AR
+    name: political_party
+    help_text: Optional. You do not have to register with a party if you want to take part in that party's primary election, caucus, or convention.
+  - state: AR
+    name: ethnicity
+    help_text: Arkansas does not ask you to include your race or ethnicity in order to vote -- choosing it here is completely optional.
+  - state: CA
+    name: id_number
+    help_text: When you register to vote, you must provide your California driver's license or California identification card number, if you have one. If you do not have a driver's license or ID card, you must provide the last four digits of your Social Security Number (SSN). If you do not have a driver's license or a non-operating identification or a social security number, please write "NONE" on the form. If you write "NONE" you will be required to provide identification when you vote.
+  - state: CA
+    name: ethnicity
+    help_text: California does not ask you to include your race or ethnicity in order to vote -- choosing it here is completely optional.
+  - state: CA
+    name: political_party
+    help_text: Please enter the name of the political party with which you wish to register. If you do not wish to register with any party, enter "Decline to State" in the space provided. California law allows voters who "Decline to State" an affiliation with a qualified political party or who affiliate with a non-qualified political party to vote in the primary election of any qualified political party that files a notice with the Secretary of State allowing them to do so. You can call 1-800-345-VOTE or visit www.ss.ca.gov to learn which political parties are allowing nonaffiliated voters to participate in their primary election.
+  - state: CO
+    name: id_number
+    help_text: Your completed voter registration form must contain your state issued driver's license number or identification number. If you do not have a driver's license or state issued identification, you must include the last four digits of your social security number. If you do not have a driver's license or a state issued identification or a social security number, please write "NONE" on the form. A unique identifying number will be assigned by the State.
+  - state: CO
+    name: ethnicity
+    help_text: Colorado does not ask you to include your race or ethnicity in order to vote -- choosing it here is completely optional.
+  - state: CO
+    name: political_party
+    help_text: You must register with a party if you want to take part in that party's primary election, caucus, or convention.
+  - state: CT
+    name: id_number
+    help_text: Connecticut Driver's License Number, or if none, the last four digits of your Social Security Number.
+  - state: CT
+    name: ethnicity
+    help_text: Conneticut does not ask you to include your race or ethnicity in order to vote -- choosing it here is completely optional.
+  - state: CT
+    name: political_party
+    help_text: This is optional, but you must register with a party if you want to take part in that party's primary election, caucus, or convention.
+  - state: DC
+    name: id_number
+    help_text: Federal law now requires that all voter registration applications must include either the applicant's driver's license number or the last four digits of the applicant's social security number in order to be processed.
+  - state: DC
+    name: ethnicity
+    help_text: Washingon, DC does not ask you to include your race or ethnicity in order to vote -- choosing it here is completely optional.
+  - state: DC
+    name: political_party
+    help_text: You must register with a party if you want to take part in that party's primary election, caucus, or convention.
+  - state: DE
+    name: id_number
+    help_text: Your completed voter registration form must contain your state issued driver's license number or non-operating identification number. If you do not have a driver's license or non-operating identification, you must include the last four digits of your social security number. If you do not have a driver's license or a non-operating identification or a social security number, please write "NONE" on the form. A unique identifying number will be assigned by the State.
+  - state: DE
+    name: ethnicity
+    help_text: Delaware does not ask you to include your race or ethnicity in order to vote -- choosing it here is completely optional.
+  - state: DE
+    name: political_party
+    help_text: You must register with a party if you want to take part in that party's primary election, caucus, or convention.
+  - state: FL
+    name: id_number
+    help_text: If you have one, you must provide your Florida driver's license number or Florida identification card number. If you do not have a Florida driver's license or identification card, you must provide the last four digits of your social security number.
+  - state: FL
+    name: ethnicity
+    help_text: Please choose the race/ethnicity that applies to you.
+  - state: FL
+    name: political_party
+    help_text: You must register with a party if you want to take part in that party's primary election, caucus, or convention.
+  - state: GA
+    name: id_number
+    help_text: Federal law requires you to provide your full GA Drivers License number or GA State issued ID number. If you do not have a GA Drivers License or GA ID you must provide the last 4 digits of your Social Security number. Providing your full Social Security number is optional. Your Social Security number will be kept confidential and may be used for comparison with other state agency databases for voter registration identification purposes. If you do not possess a GA Drivers License or Social Security number, a unique identifier will be provided for you.
+  - state: GA
+    name: ethnicity
+    help_text: Please choose the race/ethnicity that applies to you.
+  - state: GA
+    name: political_party
+    help_text: You do not have to register with a party to take part in that party's primary, caucus or convention.
+  - state: HI
+    name: id_number
+    help_text: Your full social security number is required. It is used to prevent fraudulent registration and voting. Failure to furnish this information will prevent acceptance of this application (Hawaii Revised Statutes, Section 11-15).
+  - state: HI
+    name: ethnicity
+    help_text: Race or ethnic group information is not required for voter registration.
+  - state: HI
+    name: political_party
+    help_text: A "choice of party" is not required for voter registration.
+  - state: IA
+    name: id_number
+    help_text: Your ID number is your Iowa driver's license number (or Iowa non-driver identification number) if you have one, if not then the last four digits of your social security number. The ID number you provide will be verified with the Iowa Department of Transportation or the Social Security Administration.
+  - state: IA
+    name: ethnicity
+    help_text: Iowa does not ask you to include your race or ethnicity in order to vote -- choosing it here is completely optional.
+  - state: IA
+    name: political_party
+    help_text: You may, but do not have to, register with a party in advance if you want to take part in that party's primary election. You may change or declare a party affiliation at the polls on primary election day.
+  - state: ID
+    name: id_number
+    help_text: Enter your driver's license number. If you have no driver's license, enter the last 4 digits of your social security number.
+  - state: ID
+    name: ethnicity
+    help_text: Idaho does not ask you to include your race or ethnicity in order to vote -- choosing it here is completely optional.
+  - state: ID
+    name: political_party
+    help_text: You do not have to register with a party if you want to take part in that party's primary election, caucus, or convention.
+  - state: IL
+    name: id_number
+    help_text: Your driver's license number is required to register to vote. If you do not have a driver's license, at least the last four digits of your social security number are required. If you have neither, please write "NONE" on the form. A unique identifier will be assigned to you by the State.
+  - state: IL
+    name: ethnicity
+    help_text: Illinois does not ask you to include your race or ethnicity in order to vote -- choosing it here is completely optional.
+  - state: IL
+    name: political_party
+    help_text: Party registration or preference is not required for voter registration. However, when you apply for a primary ballot, you must indicate your party preference for that election.
+  - state: IN
+    name: id_number
+    help_text: Your state voter ID number is your ten digit Indiana issued driver's license number. If you do not possess an Indiana driver's license then provide the last four digits of your social security number. Please indicate which number was provided. (Indiana Code 3-7-13-13)
+  - state: IN
+    name: ethnicity
+    help_text: Indiana does not ask you to include your race or ethnicity in order to vote -- choosing it here is completely optional.
+  - state: IN
+    name: political_party
+    help_text: Leave blank.
+  - state: KS
+    name: id_number
+    help_text: Your completed voter registration form must contain your state issued driver's license number or nondriver's identification card number. If you do not have a driver's license or nondriver's identification card, you must include the last four digits of your social security number. If you do not have a driver's license or a nondriver's identification card or social security number, please write "NONE" on the form. A unique identifying number will be assigned by the State. The number you provide will be used for administrative purposes only and will not be disclosed to the public. (KSA 25-2309).
+  - state: KS
+    name: ethnicity
+    help_text: Kansas does not ask you to include your race or ethnicity in order to vote -- choosing it here is completely optional.
+  - state: KS
+    name: political_party
+    help_text: You must register with a party if you want to take part in that party's primary election, caucus, or convention.
+  - state: KY
+    name: id_number
+    help_text: Your full social security number is required. It is used for administrative purposes only and is not released to the public (KRS 116.155). No person shall be denied the right to register because of failure to include social security number.
+  - state: KY
+    name: ethnicity
+    help_text: Kentucky does not ask you to include your race or ethnicity in order to vote -- choosing it here is completely optional.
+  - state: KY
+    name: political_party
+    help_text: You must register with a party if you want to take part in that party's primary election, caucus, or convention.
+  - state: LA
+    name: id_number
+    help_text: You must provide your Louisiana driver's license number, if issued. If not issued, you must provide at least the last four digits of your social security number, if issued. The full social security number may be provided on a voluntary basis. Neither the registrar nor the Department of State shall disclose the social security number of a registered voter or circulate the social security numbers of registered voters on commercial lists (R.S. 18:104 and 154; 42 U.S.C. 405).
+  - state: LA
+    name: ethnicity
+    help_text: Please choose the race/ethnicity that applies to you.
+  - state: LA
+    name: political_party
+    help_text: If you do not list a party affiliation, you cannot vote in the Presidential Preference Primary and party committee elections. Political party affiliation is not required for any other election.
+  - state: MA
+    name: id_number
+    help_text: Federal law requires that you provide your driver's license number to register to vote. If you do not have a current and valid Massachusetts' driver's license then you must provide the last four (4) digits of your social security number. If you have neither, you must write "NONE" in the box and a unique identifying number will be assigned to you.
+  - state: MA
+    name: ethnicity
+    help_text: Massachusetts does not ask you to include your race or ethnicity in order to vote -- choosing it here is completely optional.
+  - state: MA
+    name: political_party
+    help_text: If you do not designate a party of political designation in this box, you will be registered as unenrolled. Unenrolled voters may participate in party primaries. However, an unenrolled voter must enroll in a party on the day of the Presidential Preference Primary in order to participate in that primary.
+  - state: MD
+    name: id_number
+    help_text: If you have a current, valid Maryland driver's license or a Motor Vehicle Administration identification card, you must enter the driver's license or identification number. If you do not have a current, valid Maryland driver's license or Motor Vehicle Administration identification card, you must enter at least the last 4 digits of your social security number. However, please note, the disclosure of your full Social Security number is voluntary. The statutory authority allowing election officials to request your full Social Security number is Election Law Article, Section 3- 202, Annotated Code of Maryland. The number will be used only for registration and other administrative purposes. It will be kept confidential.
+  - state: MD
+    name: ethnicity
+    help_text: Maryland does not ask you to include your race or ethnicity in order to vote -- choosing it here is completely optional.
+  - state: MD
+    name: political_party
+    help_text: You must register with a party if you want to take part in that party's primary election.
+  - state: ME
+    name: id_number
+    help_text: You must list your valid Maine driver's license number. If you don't have a valid Maine driver's license, then you must provide the last four digits of your Social Security Number. Voters who don't have either of these forms of ID must write "NONE" in this space.
+  - state: ME
+    name: ethnicity
+    help_text: Maine does not ask you to include your race or ethnicity in order to vote -- choosing it here is completely optional.
+  - state: ME
+    name: political_party
+    help_text: You must register with a party if you want to take part in that party's primary election, caucus, or convention (unless otherwise permitted by a political party).
+  - state: MI
+    name: id_number
+    help_text: Your completed voter registration form must contain your state issued driver's license number or state issued personal identification card number. If you do not have a driver's license or state issued personal identification card, you must include the last four digits of your social security number. If you do not have a driver's license or a state issued personal identification card or a social security number, please write "NONE" on the form. A unique identifying number will be assigned by the State.
+  - state: MI
+    name: ethnicity
+    help_text: Michigan does not ask you to include your race or ethnicity in order to vote -- choosing it here is completely optional.
+  - state: MI
+    name: political_party
+    help_text: A "choice of party" is not required for voter registration.
+  - state: MN
+    name: id_number
+    help_text: You are required to provide your Minnesota driver’s license or state ID number to register to Vote. If you do not have a Minnesota driver’s license or state ID then you will have to provide the last four digits of your social security number. If you have neither, please write "none"  on the form.
+  - state: MN
+    name: ethnicity
+    help_text: Minnesota does not ask you to include your race or ethnicity in order to vote -- choosing it here is completely optional.
+  - state: MN
+    name: political_party
+    help_text: Leave blank.
+  - state: MO
+    name: id_number
+    help_text: Your completed voter registration form must contain your state issued driver's license number. Your completed voter registration form must also include the last four digits of your social security number. (Section 115.155, RSMo). If you do not have a driver's license or a social security number, please write "NONE" on the form. A unique identifying number will be assigned by the State. Any electronic media, printouts or mailing labels provided under this section shall not include telephone numbers and social security numbers of voters. (Section 115.157, RSMo).
+  - state: MO
+    name: ethnicity
+    help_text: Missouri does not ask you to include your race or ethnicity in order to vote -- choosing it here is completely optional.
+  - state: MO
+    name: political_party
+    help_text: You do not have to register with a party if you want to take part in that party's primary election, caucus, or convention.
+  - state: MS
+    name: id_number
+    help_text: You are required to provide your current and valid driver's license number or, if you don't have one, the last four digits of your social security number.
+  - state: MS
+    name: ethnicity
+    help_text: Mississippi does not ask you to include your race or ethnicity in order to vote -- choosing it here is completely optional.
+  - state: MS
+    name: politcal_party
+    help_text: Mississippi does not have party registration. Therefore, you do not have to register with a party if you want to take part in that party's primary election, caucus, or convention.
+  - state: MT
+    name: id_number
+    help_text: You must provide your Montana driver's license number. If you do not have a Montana driver's license number then you must list the LAST FOUR DIGITS OF YOUR SOCIAL SECURITY NUMBER. If you have neither a driver's license, nor a social security number, please write "NONE" on the form. The state of Montana will assign to you a unique identifying number.
+  - state: MT
+    name: ethnicity
+    help_text: Montana does not ask you to include your race or ethnicity in order to vote -- choosing it here is completely optional.
+  - state: MT
+    name: political_party
+    help_text: Montana does not require party registration to participate in any election.
+  - state: NC
+    name: id_number
+    help_text: Provide your North Carolina driver's license number, or North Carolina Department of Motor Vehicles ID number. If you do not have a driver's license, then list the last four digits of your social security number.
+  - state: NC
+    name: ethnicity
+    help_text: You are required to fill in this box. However, your application will not be rejected if you fail to do so.
+  - state: NC
+    name: political_party
+    help_text: You must register with a party to vote in that party's primary unless that party allows unaffiliated voters to vote in its primary. If you indicate a political party that is not a qualified party, or indicate no party, you will be listed as "Unaffiliated".
+  - state: NE
+    name: id_number
+    help_text: You must provide your Nebraska driver's license number. If you do not have a Nebraska driver's license number then you must list the last four digits of your social security number.
+  - state: NE
+    name: ethnicity
+    help_text: Nebraska does not ask you to include your race or ethnicity in order to vote -- choosing it here is completely optional.
+  - state: NE
+    name: political_party
+    help_text: You must register with a party if you want to take part in that party's primary election, caucus, or convention.
+  - state: NJ
+    name: id_number
+    help_text: The last four digits of your Social Security number OR your New Jersey Driver's License number is required for voter registration. If you do not possess either of these identifications, please write "NONE" on the form. The State will assign a number that will serve to identify you for voter registration purposes.
+  - state: NJ
+    name: ethnicity
+    help_text: New Jersey does not ask you to include your race or ethnicity in order to vote -- choosing it here is completely optional.
+  - state: NJ
+    name: political_party
+    help_text: New Jersey's voter registration form does not provide a check-off for political party affiliation. A newly registered voter or voter who has never voted in a political party primary election can declare party affiliation at the polling place on the day of a primary election. In New Jersey, a primary election is only held for the Democratic and Republican parties. A voter may also file a political party declaration form to become a member of a political party. If a declared voter wished to change party affiliation he or she must file a declaration form 50 days before the primary election, in order to vote.
+  - state: NM
+    name: id_number
+    help_text: Your full social security number is required. This registration card containing your social security number will become part of the permanent voter registration records of your locality, which are open to inspection by the public in the office of the county clerk. However, your social security number and date of birth will remain confidential and will not be disclosed to the public. Computerized listings of limited voter registration information (without social security number or birth date) are available to the general public, and are furnished upon request to incumbent election officeholders, candidates, political parties, courts and non-profit organizations promoting voter participation and registration, for political purposes only (Section 1-5-19B, NMSA 1978).
+  - state: NM
+    name: ethnicity
+    help_text: New Mexico does not ask you to include your race or ethnicity in order to vote -- choosing it here is completely optional.
+  - state: NM
+    name: political_party
+    help_text: You must register with a party if you want to take part in that party's primary election, caucus, or convention.
+  - state: NV
+    name: id_number
+    help_text: You must supply a Nevada Driver's License Number if you have been issued one. If you do not have a Driver's License Number, you must supply at least the last four digits of your Social Security Number. If you do not have a Social Security Number, please contact your County Clerk/Registrar to be assigned a unique identifier.
+  - state: NV
+    name: ethnicity
+    help_text: Nevada does not ask you to include your race or ethnicity in order to vote -- choosing it here is completely optional.
+  - state: NV
+    name: political_party
+    help_text: You must register with a party if you want to take part in that party's primary election, caucus, or convention. If you register with a minor political party, or as a Nonpartisan you will receive a Nonpartisan Ballot for the Primary Election.
+  - state: NY
+    name: id_number
+    help_text: Federal law requires that you provide your driver's license number to register to vote. If you do not have a driver's license then you will have to provide at least the last four digits of your social security number. If you have neither, please write "NONE" on the form. A unique identifying number will be assigned to you by your State.
+  - state: NY
+    name: ethnicity
+    help_text: New York does not ask you to include your race or ethnicity in order to vote -- choosing it here is completely optional.
+  - state: NY
+    name: political_party
+    help_text: You must enroll with a party if you want to vote in that party's primary election or caucus.
+  - state: OH
+    name: id_number
+    help_text: Federal law requires that you provide your driver's license number to register to vote. If you do not have a driver's license then you will have to provide at least the last four digits of your social security number. If you don't have either number you will have to write "NONE" on the form and the State will assign you a number.
+  - state: OH
+    name: ethnicity
+    help_text: Ohio does not ask you to include your race or ethnicity in order to vote -- choosing it here is completely optional.
+  - state: OH
+    name: political_party
+    help_text: You do not register with a party if you want to take part in that party's primary election. Party affiliation is established by voting at a primary election.
+  - state: OK
+    name: id_number
+    help_text: The last four digits of your social security number are required. (Oklahoma Title 26, Section 4-112) In addition, your Oklahoma driver's license number is requested.
+  - state: OK
+    name: ethnicity
+    help_text: Oklahoma does not ask you to include your race or ethnicity in order to vote -- choosing it here is completely optional.
+  - state: OK
+    name: political_party
+    help_text: You must register with a party if you want to take part in that party's primary election, caucus, or convention.
+  - state: OR
+    name: id_number
+    help_text: Federal law requires that you provide your driver's license number to register to vote. If you do not have a driver's license then you will have to provide at least the last four digits of your social security number. If you have neither, you will need to write "NONE" on the form. A unique identifying number will instead be assigned to you by your State.
+  - state: OR
+    name: ethnicity
+    help_text: Oregon does not ask you to include your race or ethnicity in order to vote -- choosing it here is completely optional.
+  - state: OR
+    name: political_party
+    help_text: You must register with a party if you want to take part in that party's primary election.
+  - state: PA
+    name: id_number
+    help_text: You must supply a Driver's License Number, if you have one. If you do not have a Driver's License Number, you must supply the last four digits of your social Security Number. If you do not have a Social Security Number, please write "NONE" in the box.
+  - state: PA
+    name: ethnicity
+    help_text: Please choose the race/ethnicity that applies to you.
+  - state: PA
+    name: political_party
+    help_text: You must register with a party if you want to take part in that party's primary election.
+  - state: RI
+    name: id_number
+    help_text: The applicant shall be required to provide his/her Rhode Island driver's license number if the applicant has been issued a current and valid Rhode Island driver's license. In the case of an applicant who has not been issued a current and valid driver's license he/she must provide the last four (4) digits of his/her social security number. If you do not have a Social Security Number, please write "NONE" in the box, and you will be assigned a unique identifying number by the State of Rhode Island.
+  - state: RI
+    name: ethnicity
+    help_text: Rhode Island does not ask you to include your race or ethnicity in order to vote -- choosing it here is completely optional.
+  - state: RI
+    name: political_party
+    help_text: In Rhode Island, a person must register with a party if he/she wishes to take part in that party's primary election. A person who fails to register with a party at the time of registration may, if he/she chooses, register with a party on the day of that party's primary and take part in that party's primary election. If a person does not register with a party, he/she can still vote in general elections and non-partisan primary elections.
+  - state: SC
+    name: id_number
+    help_text: Your full social security number is required. It is required by the South Carolina Code of Laws and is used for internal purposes only. Social security number does not appear on any report produced by the State Election Commission nor is it released to any unauthorized individual. (South Carolina Title 7-5-170)
+  - state: SC
+    name: ethnicity
+    help_text: You are required to fill in this box. Your application may be rejected if you fail to do so.
+  - state: SC
+    name: political_party
+    help_text: You do not have to register with a party if you want to take part in that party's primary election, caucus, or convention.
+  - state: SD
+    name: id_number
+    help_text: Your driver's license number is requested. If you do not have a valid driver's license, you must provide the last four digits of your social security number.
+  - state: SD
+    name: ethnicity
+    help_text: South Dakota does not ask you to include your race or ethnicity in order to vote -- choosing it here is completely optional.
+  - state: SD
+    name: political_party
+    help_text: You must register with a party if you want to take part in that party's primary election, caucus, or convention.
+  - state: TN
+    name: id_number
+    help_text: Your full social security number is required. Social security number, if any, is required for purposes of identification and to avoid duplicate registration (TCA 2.2.116).
+  - state: TN
+    name: ethnicity
+    help_text: Optional.
+  - state: TN
+    name: political_party
+    help_text: You do not have to register with a party if you want to take part in that party's primary election, caucus, or convention.
+  - state: TX
+    name: id_number
+    help_text: You must provide your driver's license number to register to vote. If you do not have a driver's license then you will have to provide at least the last four digits of your social security number. If you have neither, please write "NONE" on the form. A unique identifying number will instead be assigned to you by your State.
+  - state: TX
+    name: ethnicity
+    help_text: Texas does not ask you to include your race or ethnicity in order to vote -- choosing it here is completely optional.
+  - state: TX
+    name: political_party
+    help_text: You do not have to register with a party if you want to take part in that party's primary election, caucus, or convention.
+  - state: UT
+    name: id_number
+    help_text: Your completed voter registration form must contain your state issued driver's license number or nonoperating identification number. If you do not have a driver's license or nonoperating identification, you must include the last four digits of your social security number. If you do not have a driver's license or a nonoperating identification or a social security number, please write "NONE" on the form. A unique identifying number will be assigned by the State.
+  - state: UT
+    name: ethnicity
+    help_text: Utah does not ask you to include your race or ethnicity in order to vote -- choosing it here is completely optional.
+  - state: UT
+    name: political_party
+    help_text: Declaring a party is not required in order to register to vote. However, Utah's election law allows each political party to choose whom it will allow to vote in its primary election. If you do not affiliate with a party, you may be restricted from voting in the primary.
+  - state: VA
+    name: id_number
+    help_text: Your full social security number is required. Your social security number will appear on reports produced only for official use by voter registration and election officials and, for jury selection purposes, by courts. Article II, Section 2, Constitution of Virginia (1971).
+  - state: VA
+    name: ethnicity
+    help_text: Virginia does not ask you to include your race or ethnicity in order to vote -- choosing it here is completely optional.
+  - state: VA
+    name: political_party
+    help_text: You do not have to register with a party if you want to take part in that party's primary election, caucus, or convention.
+  - state: VT
+    name: id_number
+    help_text: You must provide your Vermont Driver's license number, or if none, the last 4 digits of your Social Security number. If you do not have a Vermont Driver's license or a Social Security number, please write "NONE" on the form. The Secretary of State's office will assign you a unique identifying number.
+  - state: VT
+    name: ethnicity
+    help_text: Vermont does not ask you to include your race or ethnicity in order to vote -- choosing it here is completely optional.
+  - state: VT
+    name: political_party
+    help_text: Vermont does not require party registration to participate in any election.
+  - state: WA
+    name: id_number
+    help_text: You must provide your driver's license number. If you do not have a Washington driver's license, you must provide the last four digits of your Social Security Number. Failure to provide this information may prevent your registration from being processed.
+  - state: WA
+    name: ethnicity
+    help_text: Washington does not ask you to include your race or ethnicity in order to vote -- choosing it here is completely optional.
+  - state: WA
+    name: political_party
+    help_text: You are not required to designate your party affiliation to register in Washington.
+  - state: WI
+    name: id_number
+    help_text: Provide your driver's license number, if you have no current and valid driver's license, the last 4 digits of your social security number or DOT-issued ID card number.
+  - state: WI
+    name: ethnicity
+    help_text: Wisconsin does not ask you to include your race or ethnicity in order to vote -- choosing it here is completely optional.
+  - state: WI
+    name: political_party
+    help_text: Not required.
+  - state: WV
+    name: id_number
+    help_text: Enter your driver's license number. If you do not have a driver's license number, enter the last four numbers of your social security number. If you do not have a driver's license number or a social security number, an identification number will be assigned to you.
+  - state: WV
+    name: ethnicity
+    help_text: West Virginia does not ask you to include your race or ethnicity in order to vote -- choosing it here is completely optional.
+  - state: WV
+    name: political_party
+    help_text: You must register with a party if you want to take part in that party's primary election, caucus, or convention (unless you request the ballot of a party which allows independents to vote)

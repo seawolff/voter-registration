@@ -1,0 +1,22 @@
+<div class="row">
+  <div class="span11">
+    <br/>
+    <p>Congratulations! You’ve completed your voter registration form.</p>
+    <%= link_to "Download Voter Registration Form (PDF)", register_complete_path(format: "pdf") , :class => "btn-large btn-success" %>
+  </div>
+</div>
+<br/>
+
+<h2> Registration Deadlines </h2>
+<div class="row">
+  <div class="span10">
+    <%= raw @state_info.deadline %>
+  </div>
+</div>
+
+<h2> Registration Guidelines </h2>
+<div class="row">
+  <div class="span10">
+    <%= raw @state_info.requirements %>
+  </div>
+</div>

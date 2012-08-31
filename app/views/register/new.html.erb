@@ -1,0 +1,36 @@
+<div class="row">
+  <div class="span3 sidebar">
+    <ul class="nav nav-list sidenav affix">
+      <li><a href="#legal_name">Name</a><li>
+      <li><a href="#home_address">Home Address</a></li>
+      <li><a href="#m-address">Mailing Address</a></li>
+      <li><a href="#p-address">Previous Address</a></li>
+      <li><a href="#p-name">Previous Name</a></li>
+      <li><a href="#identification">Identification</a></li>
+      <li><a href="#additional">Additional Information</a></li>
+    </ul>
+  </div>
+  <div class="span9">
+    <div class="page-header">
+      <h1>Register in <%= @guidelines.name %></h1>
+    </div>
+    <% if @guidelines.supported %>
+      <% if @guidelines.online? && !@register.errors.any?%>
+        <h2><%= @guidelines.name %> offers online registration</h2>
+        <h4>To register to vote online in <%= @guidelines.name %>, you must:</h4>
+        <%= raw @guidelines.online_requirements %>
+        <p>Register online here: <%= link_to @guidelines.online_url, @guidelines.online_url %>
+        <h4>OR</h4>
+        <p>Continue filling out the form below for registration by mail</p>
+      <% end %>
+     <% if ENV['TWITTER_KEY'] %>
+        <br/>
+        <%= link_to image_tag('sign-in-with-twitter-d.png'), '/auth/twitter' %>
+      <% end %>
+      <br/>
+      <%= render 'form' %>
+    <% else %>
+      <%= raw @guidelines.unsupported %>
+    <% end  %>
+  </div>
+</div>

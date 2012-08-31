@@ -1,0 +1,27 @@
+<div class="page-header">
+  <h1>State Guidelines</h1>
+</div>
+<p>Choose a state below to see specific voter registration guidelines.</p>
+<div class="row">
+  <div class="span4">
+    <ul>
+      <% @states[0..16].each do |state| %>
+        <li><%= link_to state.name, guideline_path(state.state) %></li>
+      <% end %>
+    </ul>
+  </div>
+  <div class="span4">
+    <ul>
+      <% @states[17..33].each do |state| %>
+        <li><%= link_to state.name, guideline_path(state.state) %></li>
+      <% end %>
+    </ul>
+  </div>
+  <div class="span4">
+    <ul>
+      <% @states[34..50].each do |state| %>
+        <li><%= link_to state.name, guideline_path(state.state) %></li>
+      <% end %>
+    </ul>
+  </div>
+</div>

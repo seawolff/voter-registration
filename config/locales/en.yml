@@ -1,0 +1,36 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  activemodel:
+    attributes:
+      register:
+        title:  "Title"
+        first_name: "First name"
+        middle_name: "Middle name"
+        last_name: "Last name"
+        name_suffix: "Suffix"
+        home_address: "Street address"
+        home_apt: "Apt #"
+        home_city: "City"
+        home_state: "State"
+        home_zip_code: "ZIP Code"
+        mailing_address: "Street address"
+        mailing_city: "City"
+        mailing_state: "State"
+        mailing_zip_code: "ZIP Code"
+        previous_address: "Street address"
+        previous_apt: "Apt #"
+        previous_city: "City"
+        previous_zip_code: "ZIP Code"
+        previous_state: "State"
+        previous_title: "Title"
+        previous_first_name: "First Name"
+        previous_last_name: "Last Name"
+        previous_middle_name: "Middle Name"
+        previous_suffix: "Suffix"
+        id_number: "ID number"
+        date_of_birth: "Date of birth"
+        phone: "Phone"
+        political_party: "Political party"
+        ethnicity: "Ethnicity"

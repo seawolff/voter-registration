@@ -1,0 +1,83 @@
+<div class="row">
+  <div class="span3 sidebar">
+    <ul class="nav nav-list sidenav affix">
+      <li><a href="#registration">Registration</a><li>
+      <li><a href="#deadline">Deadline</a></li>
+      <li><a href="#felony">Felony Information</a></li>
+      <li><a href="#students">Students</a></li>
+      <li><a href="#identification">Identification</a></li>
+      <li><a href="#same-day">Same Day</a></li>
+      <li><a href="#early-vote">Early Vote</a></li>
+    </ul>
+  </div>
+
+  <div class="span9">
+    <div class="page-header">
+      <h1> Guidelines in <%= @guidelines.name %> </h1>
+    </div>
+    <section id="registration">
+    <h2> Voter Registration Requirements </h2>
+    <div class="row">
+      <div class="span9">
+        <%= raw @guidelines.requirements %>
+      </div>
+    </div>
+    </section>
+    <section id="deadline">
+    <h2> Registration Deadline </h2>
+    <div class="row">
+      <div class="span9">
+        <%= raw @guidelines.deadline %>
+      </div>
+    </div>
+    </section>
+    <section id="felony">
+    <h2> Felony Information </h2>
+    <div class="row">
+      <div class="span9">
+        <%= raw @guidelines.felony %>
+      </div>
+    </div>
+    </section>
+    <section id="students">
+    <h2> Information for Students </h2>
+    <div class="row">
+      <div class="span9">
+        <%= raw @guidelines.student %>
+      </div>
+    </div>
+    </section>
+    <section id="identification">
+    <h2> Identification Information </h2>
+    <div class="row">
+      <div class="span9">
+        <%= raw @guidelines.identification %>
+      </div>
+    </div>
+    </section>
+    <section id="same-day">
+    <h2> Same Day Registration </h2>
+    <div class="row">
+      <div class="span9">
+        <%= raw @guidelines.same_day %>
+      </div>
+    </div>
+    </section>
+    <section id="early-vote">
+    <h2> Early Voting Information </h2>
+    <div class="row">
+      <div class="span9">
+        <%= raw @guidelines.early_voting %>
+      </div>
+    </div>
+    </section>
+    <section id="sos">
+    <h2> Secretary of State </h2>
+    <div class="row">
+      <div class="span9">
+        <%= link_to @guidelines.url, @guidelines.url, :target=>"_blank" %>
+      </div>
+    </div>
+    </section>
+  </div>
+</div>
