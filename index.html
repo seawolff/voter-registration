@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Voter-registration by democrats</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Voter-registration</h1>
+        <p>A Ruby on Rails Application that generates a National Voter Registration Form PDF from a webform. Includes the guidelines for the National Voter Registration form in all states.</p>
+
+        <p class="view"><a href="https://github.com/democrats/voter-registration">View the Project on GitHub <small>democrats/voter-registration</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/democrats/voter-registration/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/democrats/voter-registration/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/democrats/voter-registration">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>Voter Registration</h1>
+
+<h2>About</h2>
+
+<p>We need more Americans to have a say in their government, not just the special interests. That's why we should be taking down roadblocks to voting.  We believe in an America where everybody can make their voices heard.</p>
+
+<p>That is why the Democratic National Committee created this open source application to provide more opportunities to register to vote in November!  States have varying laws for voter registration, so this application is a one stop shop that contains all the voter registration information and voting checklists that you will need to vote. <strong>This information should not be altered.</strong></p>
+
+<p>You can help all eligible voters register to vote by using this software.</p>
+
+<h1>What is it?</h1>
+
+<p>A Ruby on Rails Application that generates a <a href="http://www.eac.gov/voter_resources/register_to_vote.aspx">National Voter Registration Form</a> PDF from a webform.
+Includes the guidelines for the National Voter Registration form in all states.</p>
+
+<h2>Demo</h2>
+
+<p>You can see a running version of the application at <a href="http://voter-registration.herokuapp.com/">http://voter-registration.herokuapp.com/</a></p>
+
+<h2>Requirements</h2>
+
+<ol>
+<li> Make sure the machine that you're using has Ruby 1.9.3 installed.
+We use <a href="https://github.com/sstephenson/rbenv/">rbenv</a> for Ruby version management</li>
+<li> You'll need the RubyGem "bundler" installed.</li>
+</ol><h2>Installation</h2>
+
+<pre><code>git clone git@github.com:ofa/voter-registration.git
+cd voter-registration
+bundle install
+rake db:migrate
+rake db:seed #This will load all the State information
+</code></pre>
+
+<h2>Usage</h2>
+
+<pre><code>rails server
+</code></pre>
+
+<p>Open up your browser and go to http://localhost:3000</p>
+
+<h2>Deploying to <a href="http://www.heroku.com">Heroku</a>
+</h2>
+
+<p>You can setup a Heroku account for free <a href="https://devcenter.heroku.com/articles/quickstart">https://devcenter.heroku.com/articles/quickstart</a></p>
+
+<pre><code>heroku create
+heroku addons:add sendgrid:starter #Free addon used for devise emails
+git push heroku master
+heroku run rake db:migrate
+heroku run rake db:seed
+</code></pre>
+
+<h2>Running Tests</h2>
+
+<p>We use RSpec for tests: <code>bundle exec rake spec</code></p>
+
+<h2>Admin the pages</h2>
+
+<p>We use <a href="https://www.github.com/sferik/rails_admin">rails_admin</a> to manage the State Guidelines
+Go to "/admin" to login and manage the Guidelines</p>
+
+<p>The default email: <a href="mailto:admin@example.com">admin@example.com</a><br>
+The default password: p@ssw0rd   </p>
+
+<h2>Supported Ruby Versions</h2>
+
+<p>This application aims to support and is tested against the following Ruby
+implementations:</p>
+
+<ul>
+<li>Ruby 1.9.2</li>
+<li>Ruby 1.9.3</li>
+</ul><h2>Contributing</h2>
+
+<p>In the spirit of <a href="http://www.fsf.org/licensing/essays/free-sw.html">free software</a>, <strong>everyone</strong> is encouraged to help
+improve this project.</p>
+
+<p>Here are some ways <em>you</em> can contribute:</p>
+
+<ul>
+<li>by using alpha, beta, and prerelease versions</li>
+<li>by reporting bugs</li>
+<li>by suggesting new features</li>
+<li>by <a href="https://github.com/democrats/voter-registration/tree/master/config/locales">translating to a new language</a>
+</li>
+<li>by writing or editing documentation</li>
+<li>by writing specifications</li>
+<li>by writing code (<strong>no patch is too small</strong>: fix typos, add comments, clean up
+inconsistent whitespace)</li>
+<li>by refactoring code</li>
+<li>by closing <a href="https://github.com/democrats/voter-registration/issues">issues</a>
+</li>
+<li>by reviewing patches</li>
+</ul><h2>Submitting an Issue</h2>
+
+<p>We use the <a href="https://github.com/democrats/voter-registration/issues">GitHub issue tracker</a> to track bugs and features. Before
+submitting a bug report or feature request, check to make sure it hasn't
+already been submitted. You can indicate support for an existing issue by
+voting it up. When submitting a bug report, please include a <a href="https://gist.github.com/">Gist</a> that
+includes a stack trace and any details that may be necessary to reproduce the
+bug, including your gem version, Ruby version, and operating system. Ideally, a
+bug report should include a pull request with failing specs.</p>
+
+<h2>Submitting a Pull Request</h2>
+
+<ol>
+<li>Fork the project.</li>
+<li>Create a topic branch. (<code>git checkout -b my_awesome_branch</code>)</li>
+<li>Implement your feature or bug fix.</li>
+<li>Add tests for your feature or bug fix.</li>
+<li>Run <code>bundle exec rake spec</code>. If your changes are not 100% covered, go back
+to step 4.</li>
+<li>Commit your changes. (<code>git commit -am "Added some cool things"</code>)</li>
+<li>Push to the branch (<code>git push origin my_awesome_branch</code>)</li>
+<li>Submit a <a href="https://help.github.com/articles/using-pull-requests/">pull request</a>
+</li>
+</ol><h2>Documentation</h2>
+
+<p>Documentation is available in the <strong>/doc</strong> directory in the root of the project.</p>
+
+<h2>License</h2>
+
+<p>Copyright © 2012 DNC Services Corporation
+<a href="http://www.democrats.org/">http://www.democrats.org/</a></p>
+
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+
+<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+
+<p>This permission does not include: (a) any use of the Software other than for its intended purpose; or (b) any use of the Software in any manner that violates applicable law.  Any use of the Software other than as specifically authorized herein is strictly prohibited and will terminate the license granted herein.</p>
+
+<p>All information, dates and content included in the Software are subject to change given the subject matter of the Software.  It is the responsibility of the user of the Software hereunder to monitor changes in applicable law.  Future versions of the Software may include updated content to reflect any changes in applicable law.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/democrats">democrats</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-30908-129");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
