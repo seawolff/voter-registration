@@ -21,7 +21,7 @@ describe RegisterHelper do
 
   describe "#suffix_select" do
     it "should return the array for suffix" do
-      helper.suffix_select.should == ["Jr", "Sr", "II", "III", "IV"]
+      helper.suffix_select.should == ["Jr.", "Sr.", "II", "III", "IV"]
     end
   end
 
