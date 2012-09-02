@@ -1,4 +1,4 @@
-require 'active_attr/rspec'
+require "spec_helper"
 
 describe Register do
   it do
@@ -31,6 +31,17 @@ describe Register do
     should have_attribute(:id_number)
     should have_attribute(:political_party)
     should have_attribute(:ethnicity)
+  end
 
+  describe "Validations" do
+    it { should validate_presence_of(:title) }
+    it { should validate_presence_of(:first_name) }
+    it { should validate_presence_of(:last_name) }
+    it { should validate_presence_of(:home_address) }
+    it { should validate_presence_of(:home_city) }
+    it { should validate_presence_of(:home_state) }
+    it { should validate_presence_of(:home_zip_code) }
+    it { should validate_presence_of(:date_of_birth) }
+    it { should validate_presence_of(:id_number) }
   end
 end
