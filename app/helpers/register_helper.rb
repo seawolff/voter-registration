@@ -14,7 +14,7 @@ module RegisterHelper
   end
 
   def suffix_select
-    ["Jr","Sr","II","III","IV"]
+    ["Jr.","Sr.","II","III","IV"]
   end
 
 end
