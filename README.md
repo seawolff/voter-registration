@@ -1,4 +1,5 @@
-#Voter Registration
+#Voter Registration [![Build Status](https://secure.travis-ci.org/democrats/voter-registration.png?branch=master)][travis]
+[travis]: http://travis-ci.org/democrats/voter-registration
 
 ##About
 
@@ -51,8 +52,8 @@ We use RSpec for tests: `bundle exec rake spec`
 We use [rails_admin](https://www.github.com/sferik/rails_admin) to manage the State Guidelines
 Go to "/admin" to login and manage the Guidelines
 
-The default email: admin@example.com    
-The default password: p@ssw0rd   
+The default email: admin@example.com
+The default password: p@ssw0rd
 
 ## Supported Ruby Versions
 This application aims to support and is tested against the following Ruby
