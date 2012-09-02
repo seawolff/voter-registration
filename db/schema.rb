@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120807234854) do
+ActiveRecord::Schema.define(:version => 20120902161532) do
 
   create_table "admins", :force => true do |t|
     t.string   "email",                  :default => "", :null => false
@@ -61,6 +61,10 @@ ActiveRecord::Schema.define(:version => 20120807234854) do
     t.boolean  "supported",           :default => true
     t.text     "unsupported"
   end
+
+  add_index "guidelines", ["id"], :name => "index_guidelines_on_id"
+  add_index "guidelines", ["name"], :name => "index_guidelines_on_name"
+  add_index "guidelines", ["state"], :name => "index_guidelines_on_state"
 
   create_table "instructions", :force => true do |t|
     t.string   "name"

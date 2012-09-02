@@ -1,6 +1,6 @@
 class GuidelinesController < ApplicationController
   def index
-    @states = Guidelines.all
+    @states = Guidelines.select("name, state")
   end
 
   def show
