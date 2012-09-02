@@ -2129,11 +2129,11 @@
         <li> You plan to be absent on te day of the election from the city, town, or unincorporated place in which you are registered to vote; or</li>
         <li> You cannot appear in public on Election Day because of observance of a religious commitment</li>
         <li> You are unable to vote in person due to a disability; or</li>
-        <li> You cannot appear at any time during polling hours at your polling place because an employment obligation requires you to remain physically at work or to be in transit to or from work from the time the polls open until after the time the plls close</li>
+        <li> You cannot appear at any time during polling hours at your polling place because an employment obligation requires you to remain physically at work or to be in transit to or from work from the time the polls open until after the time the polls close</li>
         </ul>"
       title: Early Voting
     - slug: url
-      body: http://www.sos.nh.gov/electionsnew.html
+      body: http://sos.nh.gov/VoteNH.aspx
       title: URL
     - slug: online
       body: false
