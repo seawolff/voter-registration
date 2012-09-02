@@ -59,7 +59,6 @@ The default password: p@ssw0rd
 This application aims to support and is tested against the following Ruby
 implementations:
 
-* Ruby 1.9.2
 * Ruby 1.9.3
 
 ## Contributing
