@@ -33,11 +33,17 @@ class Register
   attribute :political_party
   attribute :ethnicity
 
-  attr_accessible :citizen, :title, :first_name, :middle_name, :last_name, :home_address, :home_apt, :home_city, :home_state, :home_zip_code,
-                :mailing_address, :mailing_apt, :mailing_city, :mailing_state, :mailing_zip_code, :previous_address, :previous_apt,
-                :previous_city, :previous_state, :previous_zip_code, :previous_title, :previous_first_name, :previous_middle_name,
-                :previous_last_name, :date_of_birth, :phone, :id_number, :political_party, :ethnicity, :name_suffix, :previous_suffix
+  attr_accessible :citizen, :title, :first_name, :middle_name, :last_name, 
+                  :home_address, :home_apt, :home_city, :home_state, 
+                  :home_zip_code, :mailing_address, :mailing_apt, :mailing_city,
+                  :mailing_state, :mailing_zip_code, :previous_address, 
+                  :previous_apt, :previous_city, :previous_state, 
+                  :previous_zip_code, :previous_title, :previous_first_name, 
+                  :previous_middle_name, :previous_last_name, :date_of_birth,
+                  :phone, :id_number, :political_party, :ethnicity, 
+                  :name_suffix, :previous_suffix
 
-  validates_presence_of :title, :first_name, :last_name, :home_address, :home_city, :home_state, :home_zip_code, :date_of_birth, :id_number
-
+  validates_presence_of :title, :first_name, :last_name, :home_address, 
+                        :home_city, :home_state, :home_zip_code, :date_of_birth,
+                        :id_number
 end
