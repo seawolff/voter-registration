@@ -1,7 +1,7 @@
-Welcome to the voter-registration wiki!
+Welcome to the voter-registration app!
 
-See the [README](https://github.com/ofa/voter-registration/blob/master/README.md) for information on how to get started
+See the [README](./../README.md) for information on how to get started
 
-* [Modifying State Content](https://github.com/ofa/voter-registration/wiki/Modifying-Page-Content)
-* [Voter PDF Form](https://github.com/ofa/voter-registration/wiki/Voter-PDF-Form)
+* [Modifying Page Content](Modifying-Page-Content.md)
+* [Voter PDF Form](Voter-PDF-Form.md)
 
