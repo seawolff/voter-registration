@@ -1,6 +1,8 @@
 #Voter Registration [![Build Status](https://secure.travis-ci.org/democrats/voter-registration.png?branch=master)][travis]
 [travis]: http://travis-ci.org/democrats/voter-registration
 
+[![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/democrats/voter-registration)
+
 ##About
 
 We need more Americans to have a say in their government, not just the special interests. That's why we should be taking down roadblocks to voting.  We believe in an America where everybody can make their voices heard.
