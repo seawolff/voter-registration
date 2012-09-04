@@ -42,6 +42,8 @@ You can setup a Heroku account for free [https://devcenter.heroku.com/articles/q
 
     heroku create
     heroku addons:add sendgrid:starter #Free addon used for devise emails
+    rake secret # to generate a secret token
+    heroku config:set SECRET_TOKEN={{your secret token}}
     git push heroku master
     heroku run rake db:migrate
     heroku run rake db:seed
