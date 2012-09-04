@@ -11,7 +11,8 @@
   <fieldset>
     <legend>Name</legend>
     <%= f.input :citizen do %>
-      <%= f.check_box :citizen, :checked => "checked"  %> Are you a citizen of the United States of America?
+      <%= f.check_box :citizen, :checked => "checked" %>
+      <%= f.label :citizen, 'Are you a citizen of the United States of America?' %>
     <% end %>
     <%= f.input :title, :collection => title_select %>
     <%= f.input :first_name %>
@@ -36,7 +37,9 @@
   <legend>Mailing Address</legend>
   <div class="control-group">
     <div class="controls">
+      <label>
       <input type="checkbox" data-toggle="collapse" data-target="#mailing_address"/>  I have a different mailing address
+      </label>
     </div>
   </div>
   <div id="mailing_address" class="collapse out">
@@ -55,7 +58,9 @@
   <legend>Previous Address</legend>
   <div class="control-group">
     <div class="controls">
+      <label>
       <input type="checkbox" data-toggle="collapse" data-target="#previous_address"/>   I have recently moved
+      </label>
     </div>
   </div>
   <div id="previous_address" class="collapse out">
@@ -74,7 +79,9 @@
   <legend>Previous Name</legend>
   <div class="control-group">
     <div class="controls">
+      <label>
       <input type="checkbox" data-toggle="collapse" data-target="#previous_name"/>   I have recently changed my name
+      </label>
     </div>
   </div>
   <div id="previous_name" class="collapse out">
