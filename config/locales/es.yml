@@ -1,0 +1,36 @@
+
+es:
+  activemodel:
+    attributes:
+      register:
+        title:  "Título"
+        first_name: "Nombre"
+        middle_name: "Segundo nombre"
+        last_name: "Apellido"
+        name_suffix: "Sufijo"
+        home_address: "Dirección Física"
+        home_apt: "# de Apartamento"
+        home_city: "Ciudad"
+        home_state: "Estado"
+        home_zip_code: "Código Postal"
+        mailing_address: "Dirección Física"
+        mailing_city: "Ciudad"
+        mailing_state: "Estado"
+        mailing_zip_code: "Código Postal"
+        previous_address: "Dirección Física"
+        previous_apt: "# de Apartamento"
+        previous_city: "Ciudad"
+        previous_zip_code:  "Código Postal"
+        previous_state: "Estado"
+        previous_title: "Título"
+        previous_first_name: "Nombre"
+        previous_last_name: "Apellido"
+        previous_middle_name: "Segundo nombre"
+        previous_suffix: "Sufijo"
+        id_number: "Número de identificación"
+        date_of_birth: "Fecha de nacimiento"
+        phone: "Número de teléfono"
+        political_party: "Selección de partido político"
+        ethnicity: "Raza o grupo étnico"
+
+
