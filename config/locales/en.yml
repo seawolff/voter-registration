@@ -4,10 +4,13 @@
 en:
   about: "about"
   go: "go"
+  home: "Home"
   how_it_works: "how it works"
+  register_to_vote: "Register to Vote"
   register_to_vote_in_state: "Register to Vote in your state!"
   select_a_state: "Select a state"
-  state_guidelines: "state guidelines"
+  state_guidelines: "State Guidelines"
+  terms_of_use: "Terms of use"
   vote: "vote"
   voter_registration: "Voter Registration"
 
