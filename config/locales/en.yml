@@ -2,6 +2,15 @@
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
+  about: "about"
+  go: "go"
+  how_it_works: "how it works"
+  register_to_vote_in_state: "Register to Vote in your state!"
+  select_a_state: "Select a state"
+  state_guidelines: "state guidelines"
+  vote: "vote"
+  voter_registration: "Voter Registration"
+
   activemodel:
     attributes:
       register:
