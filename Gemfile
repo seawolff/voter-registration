@@ -12,7 +12,7 @@ gem 'omniauth', '~> 1.1.0'
 gem 'omniauth-twitter'
 gem 'prawn'
 gem 'prawn-fillform'
-gem 'rails_admin', '~> 0.0.5'
+gem 'rails_admin', '~> 1.4.3'
 gem 'simple_form'
 
 # Gems used only for assets and not required
