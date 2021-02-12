@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '1.9.3'
 
-gem 'rails', '3.2.8'
+gem 'rails', '6.0.3.5'
 
 gem 'active_attr'
 gem 'devise'
@@ -12,7 +12,7 @@ gem 'omniauth', '~> 1.1.0'
 gem 'omniauth-twitter'
 gem 'prawn'
 gem 'prawn-fillform'
-gem 'rails_admin', '~> 0.0.5'
+gem 'rails_admin', '~> 2.0.0'
 gem 'simple_form'
 
 # Gems used only for assets and not required
