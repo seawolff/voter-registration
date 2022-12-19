@@ -3,7 +3,7 @@ ruby '1.9.3'
 
 gem 'rails', '3.2.8'
 
-gem 'active_attr'
+gem 'active_attr', '>= 0.15.3'
 gem 'devise'
 gem 'encrypted-cookie-store'
 gem 'high_voltage'
